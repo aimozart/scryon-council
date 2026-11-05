@@ -16,10 +16,11 @@ A session can decide only if the critic's report, the contestor's rebuttal and t
 | Piece | Status |
 |---|---|
 | Council ledger on the node, signed with a managed cloud key | Built, running |
-| Public explorer with in-browser verification | Built, live |
-| First session recorded: **no quorum**, because the critic and contestor are not connected yet | Done (the correct outcome) |
-| Critic and contestor model runs (different providers) | Next |
-| Human Principal's private review view | Planned |
+| Public explorer with in-browser verification and a computed quorum line | Built, live |
+| First full session: Azure Phi-4 critic, Gemini contestor, orchestrator packet, three Human Principal decisions (2 accepted, 1 rejected) | Done; see [examples/first-session.json](examples/first-session.json) |
+| Scheduled weekly sessions | Next (a session runs on demand today) |
+| Private review page for the Human Principal | Planned (a command-line decision script is used) |
+| A separate signing key per role | Planned (today the node signs every step) |
 | Decision memory (precedents as evidence, never authority) | Planned |
 
 ## Honest limits

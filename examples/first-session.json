@@ -1,6 +1,6 @@
 {
-  "note": "First council session on the cloud node, 2026-11-05 (synthetic). Subject hashes omitted.",
-  "verified": "OK records=3 checkpoints=3",
+  "note": "First full council session on the cloud node, 2026-11-05 (synthetic). Subject hashes omitted.",
+  "verified": "OK records=11 checkpoints=11",
   "records": [
     {
       "index": 0,
@@ -25,6 +25,70 @@
       "decision": "hold",
       "reason": "council_no_quorum",
       "plain": "A council session could not meet its quorum, so nothing changes."
+    },
+    {
+      "index": 3,
+      "handle": "scheduler-agent",
+      "label": "council_session",
+      "decision": "info",
+      "reason": "none",
+      "plain": "The council scheduler recorded a session event."
+    },
+    {
+      "index": 4,
+      "handle": "orchestrator-agent",
+      "label": "council_packet",
+      "decision": "info",
+      "reason": "none",
+      "plain": "The orchestrator compiled the review packet: the recorded decisions and their outcomes for this session."
+    },
+    {
+      "index": 5,
+      "handle": "critic-agent",
+      "label": "council_finding",
+      "decision": "info",
+      "reason": "none",
+      "plain": "The critic filed a finding about a recorded decision. Only a hash of the finding is kept here."
+    },
+    {
+      "index": 6,
+      "handle": "contestor-agent",
+      "label": "council_rebuttal",
+      "decision": "info",
+      "reason": "none",
+      "plain": "The contestor argued against a finding. Only a hash of the rebuttal is kept here."
+    },
+    {
+      "index": 7,
+      "handle": "scheduler-agent",
+      "label": "council_session",
+      "decision": "info",
+      "reason": "none",
+      "plain": "The council scheduler recorded a session event."
+    },
+    {
+      "index": 8,
+      "handle": "human-principal",
+      "label": "council_decision",
+      "decision": "deny",
+      "reason": "council_rejected",
+      "plain": "The Human Principal rejected a finding. Nothing changes."
+    },
+    {
+      "index": 9,
+      "handle": "human-principal",
+      "label": "council_decision",
+      "decision": "allow",
+      "reason": "council_accepted",
+      "plain": "The Human Principal accepted a finding. The council proposes; the change goes through the approvals gate."
+    },
+    {
+      "index": 10,
+      "handle": "human-principal",
+      "label": "council_decision",
+      "decision": "allow",
+      "reason": "council_accepted",
+      "plain": "The Human Principal accepted a finding. The council proposes; the change goes through the approvals gate."
     }
   ]
 }
