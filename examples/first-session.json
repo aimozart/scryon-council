@@ -1,0 +1,30 @@
+{
+  "note": "First council session on the cloud node, 2026-11-05 (synthetic). Subject hashes omitted.",
+  "verified": "OK records=3 checkpoints=3",
+  "records": [
+    {
+      "index": 0,
+      "handle": "scheduler-agent",
+      "label": "council_session",
+      "decision": "info",
+      "reason": "none",
+      "plain": "The council scheduler recorded a session event."
+    },
+    {
+      "index": 1,
+      "handle": "orchestrator-agent",
+      "label": "council_packet",
+      "decision": "info",
+      "reason": "none",
+      "plain": "The orchestrator compiled the review packet: the recorded decisions and their outcomes for this session."
+    },
+    {
+      "index": 2,
+      "handle": "scheduler-agent",
+      "label": "council_session",
+      "decision": "hold",
+      "reason": "council_no_quorum",
+      "plain": "A council session could not meet its quorum, so nothing changes."
+    }
+  ]
+}
