@@ -21,7 +21,8 @@ A session can decide only if the critic's report, the contestor's rebuttal and t
 | Scheduled weekly sessions | Next (a session runs on demand today) |
 | Private review page for the Human Principal | Planned (a command-line decision script is used) |
 | A separate signing key per role | Planned (today the node signs every step) |
-| Decision memory (precedents as evidence, never authority) | Planned |
+| Decision memory (lexical index of decided findings, hash-pinned; retrieval is evidence, never authority) | Built; holds the first 3 decisions |
+| Agent harness for the council's models (hash-pinned rules, state, precedents, token budget, context hash recorded) | Built |
 
 ## Honest limits
 The ledger proves recorded steps are unaltered; it cannot prove nothing was omitted. One human operates the whole crew, so this is technical separation of duties, not organisational independence. Aligned with and mapped to AI-governance practice; not assessed, not certified.
